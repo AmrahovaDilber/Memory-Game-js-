@@ -52,7 +52,7 @@ function createUi() {
   shuffle(pairs);
   pairs.forEach((item, index) => {
     cardsContainer.innerHTML += `
-        <div data-id="${index}" class="card border border-gray-300 p-2 flex flex-col items-center w-50 h-40 m-1 bg-white shadow-lg cursor-pointer">
+        <div data-id="${index}" class="card border border-gray-300 p-2 flex flex-col items-center w-50 h-40  bg-white shadow-lg cursor-pointer">
           <img src="${item.frontImg}" alt="front" class="front w-full h-full object-cover rounded-md">
           <img src="${item.backImg}" alt="back" class="back w-full h-full object-cover rounded-md hidden">
         </div>
